@@ -9,6 +9,7 @@
 		<title>Kalpana 2017</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -20,20 +21,20 @@
 
 				<!-- Header -->
 					<header id="header">
-						<div >
-							<span class="icon"><img src = "images/logo1.png" class = "new"></span>
+						<div>
+							<span class="icon "><img src = "images/logo1.png" class = "new"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>KALPANA'17</h1>
-								<p>An IEEE Student Branch event</p>
+								<p>An IEEE Pesit South event</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#steps">Steps</a></li>
-								<li><a href="#register">Register</a></li>
+								<li><a href="#register">Reg</a></li>
 								<li><a href="#contact">Sponsors</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -70,23 +71,42 @@ This facet of Kalpana consists of  engineering students from various colleges ac
 
 
 	<p>
-<b>Step 1 :</b>  Find a team. The maximum number of members per team is 3 with a strict criteria of having <b><i>at least 1 female member</i> </b>per team.</br>
+<h2><b>Step 1:</b></h2>  Find a team. The maximum number of members per team is 3 with a strict criteria of having <b><i>at least 1 female member</i> </b>per team.</br>
 
 </br>
-<b>Step 2 : </b>Take a good look at our problem domains<a href="#" style="color:red;"> <i>(*link to pdf*)</i></a></br>
+<h2><b>Step 2:</b></h2>Take a good look at our problem domains<a href="#" style="color:red;"> <i>(*link to pdf*)</i></a></br>
 </br>
-<b>Step 3 :</b> Select a domain you wish to work on. Here, you have to find a problem statement under that domain before you begin to work on a solution for it. Ex: Under the domain ‘Waste Management’, your problem statement may be ‘To provide a more feasible waste segregation system’.</br>
+<h2><b>Step 3:</b></h2> Select a domain you wish to work on. Here, you have to find a problem statement under that domain before you begin to work on a solution for it. Ex: Under the domain ‘Waste Management’, your problem statement may be ‘To provide a more feasible waste segregation system’.</br>
 </br>
-<b>step 4:</b> Register with us at  <a href="#register" style="color:red;" > clike here</a><br>
+<h2><b>Step 4:</b></h2>Register with us <a href="#register" style="color:red;" > here</a><br>
 </br>
-<b>Step 5: </b> You will receive a mail within 5 days to send an abstract about the problem statement you wish to work on.</br>
+<h2><b>Step 5:</b></h2> You will receive a mail within 5 days to send an abstract about the problem statement you wish to work on.</br>
 </br>
-<b>Step 6:</b> From here on, the Kalpana Team will be in constant touch with you for any further processes or details via e-mail. </br>
+<h2><b>Step 6:</b></h2> From here on, the Kalpana Team will be in constant touch with you for any further processes or details via e-mail. </br>
 </br>
-<b>Step 7:</b> The best ideas will be selected and the associated teams will be allowed to participate in KALPANA.</br>
+<h2><b>Step 7:</b></h2> The best ideas will be selected and the associated teams will be allowed to participate in KALPANA.</br>
 </br>
-For any further clarifications you can reach us at
+For any further clarifications you can reach us at </br>
+<h3>Email : ieeepesitsouth@gmail.com</h3>
+</br>
+<h3>Location : </br></h3>
+<div id="map" style="width:100%;height:500px"></div>
 
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+	  var myCenter = new google.maps.LatLng(12.861639,77.664472);
+  var mapOptions = {center: myCenter, zoom: 16};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmSEdYytNIQtRbY6B2Z6yIMwBChCiz9PY&callback=myMap"></script>
 
 </p>
 
@@ -105,7 +125,7 @@ For any further clarifications you can reach us at
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Sponsors</h2>
-							
+
 								<ul class="icons">
 									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
